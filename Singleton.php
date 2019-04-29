@@ -8,7 +8,7 @@ class Singleton{
     if(null == static::$instance){
       static::$instance = new static();
     }
-    return static::$insstance;
+    return static::$instance;
   }
 
   //protected constructor prevent creating a new instance
